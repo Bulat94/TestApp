@@ -1,0 +1,43 @@
+
+
+.longValue {
+        max-width: 250px;
+        word-break: break-all;
+        text-align: justify;
+        text-align-last: center;
+
+    }
+tr:nth-child(even) {
+            background: #B7DEFF
+        }
+
+.colName {
+    text-align: center; 
+}
+
+#deleteBtn {
+    background:url("../Images/DeleteButton.png") no-repeat;
+    background-size: contain;
+    width: 22px;
+    height: 22px;   
+}
+
+  .arrow-top {
+  margin-bottom: 2px;
+  width: 0;
+  height: 0;
+  border: 5px solid transparent; 
+  border-top-color: black;  
+  border-bottom: 0;
+       display: inline-block;
+  }
+.arrow-bottom {
+    margin-bottom: 2px;
+  width: 0;
+  height: 0;
+  border: 5px solid transparent; 
+  border-bottom-color: black;  
+  border-top: 0;
+     display: inline-block;
+  }
+
